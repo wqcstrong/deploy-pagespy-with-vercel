@@ -1,0 +1,14 @@
+{
+  "name": "deploy-pagespy-with-vercel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wqcstrong/deploy-pagespy-with-vercel.git",
+  "author": "blucas.wu",
+  "license": "MIT",
+  "scripts": {
+    "build": "page-spy-api"
+  },
+  "dependencies": {
+    "@huolala-tech/page-spy-api": "latest"
+  }
+}
