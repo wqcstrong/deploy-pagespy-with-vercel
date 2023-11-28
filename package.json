@@ -6,9 +6,10 @@
   "author": "blucas.wu",
   "license": "MIT",
   "scripts": {
-    "build": "page-spy-api"
+    "build": "pm2 restart page-spy-api"
   },
   "dependencies": {
-    "@huolala-tech/page-spy-api": "latest"
+    "@huolala-tech/page-spy-api": "latest",
+    "pm2": "^5.3.0"
   }
 }
